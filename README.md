@@ -9,7 +9,7 @@ Barbearia.
 ## Integrantes e papéis
 
 | Integrante | Papel técnico | Papel de gestão TSP |
-----------------------------------------------------
+|---|---|---|
 | Elielson | Líder de Projeto | Team Leader |
 | Elidiel | Desenvolvedor | Planning Manager |
 | Alan | Web Designer / Frontend | Support Manager |
