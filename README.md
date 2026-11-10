@@ -1,2 +1,2 @@
 # barbearia-style
-Projeto acadêmico de desenvolvimento web utilizando HTML e CSS
+TED - Desenvolvimento web utilizando HTML e CSS
