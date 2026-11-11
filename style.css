@@ -154,3 +154,97 @@ main p {
     z-index: 1;
 }
 
+/* PÁGINA DE SERVIÇOS */
+
+.pagina-servicos {
+    min-height: 100vh;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao-servicos {
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.servicos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px;
+}
+
+.servico-card {
+    background: #181818;
+    border: 1px solid #a61919;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 12px rgba(166, 25, 25, 0.15);
+}
+
+.servico-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 22px rgba(166, 25, 25, 0.5);
+}
+
+.servico-card span {
+    font-size: 42px;
+}
+
+.servico-card h3 {
+    color: #e63946;
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+.servico-card h4 {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.servico-card p {
+    color: #bbb;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.servico-card strong {
+    display: block;
+    color: #e63946;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.agua {
+    border-color: #168bd2;
+}
+
+.chamas {
+    border-color: #d62828;
+}
+
+.trovao {
+    border-color: #d6b82b;
+}
+
+.nevoa {
+    border-color: #9278c7;
+}
+
+@media (max-width: 600px) {
+    .servicos-container {
+        grid-template-columns: 1fr;
+    }
+
+    .pagina-servicos {
+        padding: 40px 15px;
+    }
+}
+
+
