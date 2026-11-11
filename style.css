@@ -1,4 +1,5 @@
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,18 +61,17 @@ main h2 {
 }
 
 .conteudo-inicial {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.conteudo-inicial .subtitulo {
     color: #ff303f;
     font-size: 23px;
     font-weight: bold;
     letter-spacing: 6px;
     margin-bottom: 30px;
-}
-
-.conteudo-inicial .subtitulo {
-    color: #d62828;
-    font-size: 15px;
-    letter-spacing: 5px;
-    margin-bottom: 35px;
 }
 
 .conteudo-inicial h2 {
@@ -81,7 +81,6 @@ main h2 {
     margin-bottom: 30px;
     color: #f0a0a5;
     text-shadow: 0 0 8px rgba(230, 57, 70, .2);
-}
 }
 
 .conteudo-inicial .descricao-inicial {
@@ -184,14 +183,15 @@ main h2 {
     margin-top: 20px;
 }
 
- {
+.agua {
     border-color: #168bd2;
 }
-{
+
+.chamas {
     border-color: #d62828;
 }
 
-{
+.trovao {
     border-color: #d6b82b;
 }
 
@@ -304,7 +304,7 @@ main h2 {
     }
 
     .conteudo-inicial h2 {
-    font-size: 27px;
+        font-size: 27px;
     }
 
     .conteudo-inicial .descricao-inicial {
