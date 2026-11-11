@@ -150,7 +150,7 @@ main h2 {
     padding: 30px 20px;
     transition: .3s;
     box-shadow: 0 0 12px rgba(166, 25, 25, .15);
-}
+}             
 
 .servico-card:hover {
     transform: translateY(-8px);
@@ -159,7 +159,7 @@ main h2 {
 
 .servico-card span {
     font-size: 42px;
-    filter: brightness(0.20);
+    filter: brightness(0.00);   ///aquiiiiiiiiiiiiiiiii
 }
 
 .servico-card h3 {
