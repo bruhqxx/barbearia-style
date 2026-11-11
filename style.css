@@ -331,3 +331,73 @@ main h2 {
         padding: 22px;
     }
 }
+
+.pagina-inicial,
+.paginainicial {
+    text-align: center;
+}
+
+.pagina-inicial .subtitulo,
+.paginainicial .subtitulo {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
+    color: #ff303f;
+}
+
+.pagina-inicial h2,
+.paginainicial h2 {
+    font-size: 52px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    color: #e63946;
+    text-shadow: 0 0 15px rgba(230, 57, 70, .4);
+}
+
+.pagina-inicial .descricao-inicial,
+.paginainicial .descricaoinicial,
+.paginainicial .descricao-inicial {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    color: #ccc;
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 1.9;
+}
+
+.pagina-inicial .botoes-inicial,
+.pagina-inicial .botoesinicial,
+.paginainicial .botoes-inicial,
+.paginainicial .botoesinicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.pagina-inicial .botoes-inicial a,
+.pagina-inicial .botoesinicial a,
+.paginainicial .botoes-inicial a,
+.paginainicial .botoesinicial a {
+    letter-spacing: normal;
+    padding: 17px 30px;
+}
+
+@media (max-width: 600px) {
+    .pagina-inicial h2,
+    .paginainicial h2 {
+        font-size: 32px;
+    }
+
+    .pagina-inicial .botoes-inicial,
+    .pagina-inicial .botoesinicial,
+    .paginainicial .botoes-inicial,
+    .paginainicial .botoesinicial {
+        flex-direction: column;
+    }
+}
+
