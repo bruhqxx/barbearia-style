@@ -1,5 +1,4 @@
-
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -162,6 +161,7 @@ main h2 {
 
 .servico-card span {
     font-size: 42px;
+    filter: brightness(0.65);
 }
 
 .servico-card h3 {
@@ -183,19 +183,19 @@ main h2 {
     margin-top: 20px;
 }
 
-.agua {
+.azul{
     border-color: #168bd2;
 }
 
-.chamas {
+.amarelo {
     border-color: #d62828;
 }
 
-.trovao {
+.vermelho {
     border-color: #d6b82b;
 }
 
-.nevoa {
+.roxo {
     border-color: #9278c7;
 }
 
