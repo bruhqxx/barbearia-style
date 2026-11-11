@@ -19,45 +19,63 @@
         </nav>
     </header>
 
-    <main>
-        <h2>Agende seu horário!</h2>
+    <main class="pagina-agendamento">
 
-        <form>
+        <h2>ESCOLHA SEU CAMINHO</h2>
+
+        <p class="descricao-servicos">
+            Reserve seu momento e transforme seu estilo.
+        </p>
+
+        <form class="form-agendamento">
+
             <p>
-                <label>Nome:</label><br>
-                <input type="text" placeholder="Digite seu nome">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Digite seu nome" required>
             </p>
 
-            <br>
-
             <p>
-                <label>Telefone:</label><br>
-                <input type="tel" placeholder="Digite seu telefone">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"
+                    placeholder="(00) 00000-0000" required>
             </p>
 
-            <br>
-
             <p>
-                <label>Serviço desejado:</label><br>
-                <select>
-                    <option>Corte de cabelo</option>
-                    <option>Barba</option>
-                    <option>Corte + Barba</option>
-                    <option>Sobrancelha</option>
+                <label for="servico">Escolha seu serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione uma técnica</option>
+                    <option value="Corte Tradicional">Respiração da Água - Corte Tradicional</option>
+                    <option value="Corte e Barba">Respiração das Chamas - Corte + Barba</option>
+                    <option value="Acabamento">Respiração do Trovão - Acabamento</option>
+                    <option value="Barba">Respiração da Névoa - Barba</option>
                 </select>
             </p>
 
-            <br>
-
             <p>
-                <label>Data:</label><br>
-                <input type="date">
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
             </p>
 
-            <br>
+            <p>
+                <label for="horario">Horário:</label>
+                <select id="horario" name="horario" required>
+                    <option value="">Selecione um horário</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                </select>
+            </p>
 
-            <button type="button">Confirmar Agendamento</button>
+            <button type="submit">CONFIRMAR AGENDAMENTO</button>
+
         </form>
+
     </main>
 
 </body>
