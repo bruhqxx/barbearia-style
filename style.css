@@ -247,4 +247,83 @@ main p {
     }
 }
 
+/* PÁGINA DE AGENDAMENTO */
+
+.pagina-agendamento {
+    min-height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-agendamento {
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(145deg, #1c1c1c, #100909);
+    padding: 35px;
+    border: 1px solid #a61919;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(166, 25, 25, 0.25);
+}
+
+.form-agendamento p {
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.form-agendamento label {
+    display: block;
+    color: #e63946;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-agendamento input,
+.form-agendamento select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #6e2020;
+    border-radius: 6px;
+    background: #252525;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-agendamento input:focus,
+.form-agendamento select:focus {
+    border-color: #e63946;
+    box-shadow: 0 0 10px rgba(230, 57, 70, 0.3);
+}
+
+.form-agendamento input::placeholder {
+    color: #999;
+}
+
+.form-agendamento button {
+    width: 100%;
+    padding: 16px;
+    background: #a61919;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-agendamento button:hover {
+    background: #e63946;
+    transform: scale(1.02);
+}
+
+@media (max-width: 500px) {
+    .form-agendamento {
+        padding: 22px;
+    }
+}
+
 
