@@ -38,7 +38,11 @@
             <p>
                 <label for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="telefone"
-                    placeholder="(00) 00000-0000" required>
+                placeholder="(00) 00000-0000"
+                pattern="(\([0-9]{2}\)|[0-9]{2}) ?[0-9]{4,5}-?[0-9]{4}"
+                title="Digite um telefone válido com DDD"
+                required>
+  
             </p>
 
             <p>
