@@ -44,3 +44,45 @@ As tarefas são organizadas por meio de um quadro Kanban no GitHub Projects, uti
 - Registro das reuniões: -
 - Revisões e testes: -
 - Retrospectiva: -
+
+
+
+
+---
+
+## Quality Manager — Controle de Qualidade
+
+**Responsável:** Joaquim  
+**Data:** 17/11/2026
+
+### 1. Revisão de Código
+
+- **Arquivo revisado:** `servicos.html`
+- **Responsável pela revisão:** Joaquim
+- **Resultado:** Aprovado nos testes de navegação.
+- **Observação:** Os links de Início, Serviços e Agendamento funcionaram corretamente. Foi sugerida a padronização dos nomes dos serviços.
+
+### 2. Testes Realizados
+
+| Teste | Resultado esperado | Resultado obtido | Status |
+|---|---|---|---|
+| Telefone inválido | Bloquear letras | Aceitou abcdef | Reprovado |
+| Telefone após correção | Bloquear letras | Bloqueou abcdef | Aprovado |
+| Navegação | Abrir páginas corretas | Links funcionaram | Aprovado |
+
+### 3. Bug Encontrado e Corrigido
+
+- **Problema:** Campo de telefone aceitava letras.
+- **Arquivo:** `agendamento.html`
+- **Causa:** Falta de validação do formato do telefone.
+- **Correção:** Adicionado o atributo `pattern` ao campo de telefone.
+- **Resultado:** O formulário passou a bloquear telefones inválidos.
+- **Status:** Corrigido e testado.
+
+### 4. Evidências
+
+- [Código corrigido](https://github.com/bruhqxx/barbearia-style/blob/main/agendamento.html)
+- [Código revisado](https://github.com/bruhqxx/barbearia-style/blob/main/servicos.html)
+- [Registro dos testes](https://github.com/bruhqxx/barbearia-style/issues/8)
+
+Os resultados também foram registrados na planilha Quality Manager da equipe.
