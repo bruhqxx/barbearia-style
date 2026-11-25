@@ -35,8 +35,8 @@ As tarefas são organizadas por meio de um quadro Kanban no GitHub Projects, uti
 
 ## Planejamento e PSP
 - Planilha de planejamento: -
-- PSP do Integrante 1: -
-- PSP do Integrante 2: -
+- PSP do Integrante 1: - 
+- PSP do Integrante 2: -https://github.com/bruhqxx/barbearia-style/blob/dd0021e6fe071b298710ab09aa4fd4143a036721/style.css
 - PSP do Integrante 3: -
 - PSP do Integrante 4: -
 
