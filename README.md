@@ -34,7 +34,7 @@ Caminho A – Protótipo de páginas em HTML e CSS.
 As tarefas são organizadas por meio de um quadro Kanban no GitHub Projects, utilizando as etapas A fazer, Fazendo, Em revisão e Feito.
 
 ## Planejamento e PSP
-- Planilha de planejamento: - docs.google.com/spreadsheets/d/1Xf2YmloBe7OlRICBEAw7xpfGBw4LOmENxnxwWrpoVm0/edit?gid=1353713229#gid=1353713229
+- Planilha de planejamento: - https://docs.google.com/spreadsheets/d/1Xf2YmloBe7OlRICBEAw7xpfGBw4LOmENxnxwWrpoVm0/edit?gid=1353713229#gid=1353713229
 - PSP do Integrante 1: -
 - PSP do Integrante 2: - 
 - PSP Alan Bruno: - https://docs.google.com/spreadsheets/d/1KhKsh1BEq44yb0kkgDT2e6PqI8yZEPQ8eiXBHcJoB48/edit?gid=514721132#gid=514721132
