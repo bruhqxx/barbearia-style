@@ -36,7 +36,8 @@ As tarefas são organizadas por meio de um quadro Kanban no GitHub Projects, uti
 ## Planejamento e PSP
 - Planilha de planejamento: - https://docs.google.com/spreadsheets/d/1Xf2YmloBe7OlRICBEAw7xpfGBw4LOmENxnxwWrpoVm0/edit?gid=1353713229#gid=1353713229
 - PSP do Integrante 1: -
-- PSP do Integrante 2: - 
+- PSP do Integrante 2: - ELIDIEL SANTANA
+- file:///C:/Users/santa/Downloads/Relatorio_Atividades_Barbearia_Style.pdf
 - PSP Alan Bruno: - https://docs.google.com/spreadsheets/d/1KhKsh1BEq44yb0kkgDT2e6PqI8yZEPQ8eiXBHcJoB48/edit?gid=514721132#gid=514721132
 - PSP do Integrante 4: -
 
