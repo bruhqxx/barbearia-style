@@ -36,7 +36,7 @@ As tarefas são organizadas por meio de um quadro Kanban no GitHub Projects, uti
 ## Planejamento e PSP
 - Planilha de planejamento: - https://docs.google.com/spreadsheets/d/1Xf2YmloBe7OlRICBEAw7xpfGBw4LOmENxnxwWrpoVm0/edit?gid=1353713229#gid=1353713229
 - PSP do Integrante 1: -Elielson 
-- 
+- https://docs.google.com/spreadsheets/d/1M53sVhDFJfZn_glnv5W8wtX9ii386nO-0RMwYE8kzWc/edit?hl=pt-br&gid=1386382797#gid=1386382797
 - PSP do Integrante 2: - ELIDIEL SANTANA
 - https://docs.google.com/spreadsheets/d/1_o4hQ_Tc7W7GbEx9Fd42rU5YbDOOvPIa/edit?gid=2108599953#gid=2108599953
 - PSP Alan Bruno: - https://docs.google.com/spreadsheets/d/1KhKsh1BEq44yb0kkgDT2e6PqI8yZEPQ8eiXBHcJoB48/edit?gid=514721132#gid=514721132
